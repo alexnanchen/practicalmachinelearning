@@ -105,7 +105,7 @@ The model accuracy using 5-folds cross validation is **98.97**%.
 The development set accuracy is **99.18**%.
 
 #### Stochastic Gradient Boosting
-We already seen a huge improvement with the random forest algorithm, lets try now the Stochastic Gradient Boosting algorithm.
+We have already seen a huge improvement with the random forest algorithm, lets try now the Stochastic Gradient Boosting algorithm.
 
 After running the algorithm without parameters specification and looking at the results across tuning parameters, we choose to use **150** trees
 and the number of split for each tree will be limited to **3**.

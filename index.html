@@ -191,7 +191,7 @@ predRF &lt;- predict(modelFitRF, newdata = dfdev)</code></pre>
 </div>
 <div id="stochastic-gradient-boosting" class="section level4">
 <h4>Stochastic Gradient Boosting</h4>
-<p>We already seen a huge improvement with the random forest algorithm, lets try now the Stochastic Gradient Boosting algorithm.</p>
+<p>We have already seen a huge improvement with the random forest algorithm, lets try now the Stochastic Gradient Boosting algorithm.</p>
 <p>After running the algorithm without parameters specification and looking at the results across tuning parameters, we choose to use <strong>150</strong> trees and the number of split for each tree will be limited to <strong>3</strong>.</p>
 <pre class="r"><code>set.seed(4567)
 params &lt;- data.frame(interaction.depth=3, n.trees=150, shrinkage=0.1, n.minobsinnode=10)
