@@ -1,2 +1,2 @@
-# practicalmachinelearning
-Coursera data science
+# Practical machine learning course project
+This is the git for the practical machine learning project.
